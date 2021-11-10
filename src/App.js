@@ -22,7 +22,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetchMovieData(SEARCH_API + searchText);
+    fetchMovieData(`${SEARCH_API}${searchText}`);
     setSearchText("");
   };
   const handleChange = (e) => {
