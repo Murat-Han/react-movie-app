@@ -82,6 +82,9 @@ header {
 .header h2{
 margin: auto;
 }
+input,input::-webkit-input-placeholder{
+  font-size: 16px;
+}
 .search {
   background-color: #22254b;
   border-radius: 5px;
