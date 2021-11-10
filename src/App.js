@@ -37,7 +37,7 @@ function App() {
           <input
             className="search"
             type="search"
-            placeholder="Search movie..."
+            placeholder="Enter movie name..."
             onChange={handleChange}
             value={searchText}
           />
