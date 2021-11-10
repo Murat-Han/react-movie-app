@@ -32,7 +32,7 @@ function App() {
   return (
     <>
       <header className="header">
-        <h2>Movie Database</h2>
+        <h2>Search Movie in Database</h2>
         <form onSubmit={handleSubmit}>
           <input
             className="search"
